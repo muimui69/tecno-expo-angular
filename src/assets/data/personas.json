@@ -1,0 +1,126 @@
+[
+  {
+    "id": 1,
+    "nombre": "Edmundo Junior Zenteno Rojas",
+    "imagen": "assets/images/edmundo.jpg",
+    "perfil": "Estudiante de Ingeniería Informática con experiencia en desarrollo de aplicaciones web y móviles.",
+    "descripcion": "Apasionado por la tecnología y el desarrollo de software. Siempre en busca de nuevos desafíos y oportunidades para aprender.",
+    "habilidades": [
+      "HTML / CSS",
+      "JavaScript / TypeScript / React / Java / VUE",
+      "Node.js / NestJS / NuxtJS",
+      "SQL, NoSQL",
+      "Git / GitHub"
+    ],
+    "idiomas": [
+      "Español - Nativo",
+      "Inglés - Avanzado",
+      "Portugués - Intermedio"
+    ],
+    "experiencia": [
+      {
+        "titulo": "PointSync",
+        "fecha": "Aplicación web y móvil",
+        "descripcion": "Aplicación de punto de venta con facturación electrónica."
+      },
+      {
+        "titulo": "Auxiliar de Docencia",
+        "fecha": "Gestión I-2024 y II-2024",
+        "descripcion": "Auxiliar en Sistemas Operativos I y Programación Lógica y Funcional."
+      }
+    ],
+    "educacion": [
+      {
+        "titulo": "Ingeniería en Informática",
+        "fecha": "2021 - Actualidad",
+        "institucion": "Universidad Autónoma Gabriel René Moreno"
+      },
+      {
+        "titulo": "Educación Secundaria",
+        "fecha": "2014 - 2020",
+        "institucion": "Colegio Don Bosco \"Miguel Areiger\""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Moises Reinaldo Reyes Flores",
+    "imagen": "assets/images/moiso.jpg",
+    "perfil": "Estudiante de Ingeniería en Sistemas con experiencia en desarrollo de aplicaciones web y móviles.",
+    "descripcion": "Desarrollador dedicado con interés en soluciones innovadoras y eficientes. Disfruto colaborando en proyectos que impactan positivamente en la sociedad.",
+    "habilidades": [
+      "HTML / CSS",
+      "JavaScript / TypeScript / React / Java / VUE",
+      "Node.js / NestJS / NuxtJS",
+      "SQL, NoSQL",
+      "Git / GitHub"
+    ],
+    "experiencia": [
+      {
+        "titulo": "PointSync",
+        "fecha": "Aplicación web y móvil",
+        "descripcion": "Aplicación de punto de venta con facturación electrónica."
+      },
+      {
+        "titulo": "DentalTech",
+        "fecha": "Aplicación web",
+        "descripcion": "Aplicación para gestionar una clínica odontológica."
+      }
+    ],
+    "educacion": [
+      {
+        "titulo": "Ingeniería en Sistemas",
+        "fecha": "2024 - Actualidad",
+        "institucion": "Universidad Autónoma Gabriel René Moreno"
+      },
+      {
+        "titulo": "Educación Secundaria",
+        "fecha": "2014 - 2019",
+        "institucion": "U.E HERMANO PACIFICO FELETTI"
+      },
+      {
+        "titulo": "Educación Primaria",
+        "fecha": "2007 - 2012",
+        "institucion": "U.E RANCHO NUEVO"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Clemente Junior Zamo Adunay",
+    "imagen": "assets/images/zamo.jpg",
+    "perfil": "Estudiante de Ingeniería en Sistemas con experiencia en desarrollo de aplicaciones web y móviles.",
+    "descripcion": "Entusiasta del desarrollo web y móvil, con habilidades para trabajar en equipo y adaptabilidad a nuevas tecnologías.",
+    "habilidades": [
+      "HTML / CSS",
+      "JavaScript / TypeScript / React / Java / Angular",
+      "Node.js / NestJS",
+      "SQL, NoSQL",
+      "Git / GitHub"
+    ],
+    "experiencia": [
+      {
+        "titulo": "EcommerceStilo",
+        "fecha": "Aplicación web y móvil",
+        "descripcion": "Ecommerce para la tienda Stilo."
+      }
+    ],
+    "educacion": [
+      {
+        "titulo": "Ingeniería en Sistemas",
+        "fecha": "2024 - Actualidad",
+        "institucion": "Universidad Autónoma Gabriel René Moreno"
+      },
+      {
+        "titulo": "Educación Secundaria",
+        "fecha": "2014 - 2019",
+        "institucion": "San Felipe"
+      },
+      {
+        "titulo": "Educación Primaria",
+        "fecha": "2007 - 2012",
+        "institucion": "San Felipe"
+      }
+    ]
+  }
+]

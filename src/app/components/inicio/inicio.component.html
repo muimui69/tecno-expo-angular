@@ -1,0 +1,20 @@
+
+<nav class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="navbar-logo">Exposición SC: Grupo 05 SC</a>
+      <ul class="navbar-menu">
+        <li><a href="#" class="navbar-item">Inicio</a></li>
+        <li><a href="#" class="navbar-item">Nosotros</a></li>
+        <li><a href="#" class="navbar-item">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="card" *ngFor="let persona of personas">
+      <img [src]="persona.imagen" [alt]="persona.nombre">
+      <h3>{{ persona.nombre }}</h3>
+      <a [routerLink]="['/curriculum', persona.id]">Ver más</a>
+    </div>
+  </div>
+  

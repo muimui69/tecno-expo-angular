@@ -1,0 +1,65 @@
+
+<nav class="navbar">
+    <div class="navbar-container">
+      <a [routerLink]="['/']" class="navbar-logo">Exposición SC: Grupo 05 SC</a>
+      <ul class="navbar-menu">
+        <li><a [routerLink]="['/']" class="navbar-item">Inicio</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+ 
+  <div class="resume" *ngIf="persona">
+
+    <div class="sidebar">
+      <div class="profile-picture">
+        <img [src]="persona.imagen" [alt]="persona.nombre">
+      </div>
+      <h1>{{ persona.nombre }}</h1>
+      <p class="perfil">{{ persona.perfil }}</p>
+  
+      <div class="skills">
+        <h3>Habilidades</h3>
+        <ul>
+          <li *ngFor="let habilidad of persona.habilidades">{{ habilidad }}</li>
+        </ul>
+      </div>
+  
+   
+      <div class="languages" *ngIf="persona.idiomas">
+        <h3>Idiomas</h3>
+        <ul>
+          <li *ngFor="let idioma of persona.idiomas">{{ idioma }}</li>
+        </ul>
+      </div>
+    </div>
+  
+  
+    <div class="main-content">
+ 
+      <section class="about">
+        <h2>Descripción</h2>
+        <p>{{ persona.descripcion }}</p>
+      </section>
+  
+   
+      <section class="experience">
+        <h2>Experiencia</h2>
+        <div class="job" *ngFor="let exp of persona.experiencia">
+          <h3>{{ exp.titulo }}</h3>
+          <span class="date">{{ exp.fecha }}</span>
+          <p>{{ exp.descripcion }}</p>
+        </div>
+      </section>
+  
+     
+      <section class="education">
+        <h2>Educación</h2>
+        <div class="degree" *ngFor="let edu of persona.educacion">
+          <h3>{{ edu.titulo }}</h3>
+          <span class="date">{{ edu.fecha }}</span>
+          <p>{{ edu.institucion }}</p>
+        </div>
+      </section>
+    </div>
+  </div>
